@@ -1,0 +1,43 @@
+body {
+    background-color: #CCCCCC;
+    font-family: sans-serif;
+    height: 100%;
+    margin: 0;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.Graficos {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    flex: 1;
+    padding: 20px;
+}
+
+h1 {
+    color: #667F6C;
+    margin-top: 6;
+    text-align: center;
+}
+
+.Grafico {
+    width: 600px;
+    right: 600px;
+}
+
+.footer {
+    height: 100%;
+    background-color: #667F6C;
+    color: #CCCCCC;
+    ;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0;
+}
